@@ -36,8 +36,9 @@
 }
 
 .menu__cards {
+  width: 100%;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   gap: 100px;
   flex-wrap: wrap;
 }
