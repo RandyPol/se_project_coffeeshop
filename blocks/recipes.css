@@ -5,7 +5,6 @@
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  height: fit-content;
   padding: 100px 80px 215px;
 }
 
@@ -31,9 +30,8 @@
 
 .recipes__videos {
   display: flex;
-  margin: 0 auto;
+  justify-content: center;
   column-gap: 40px;
-  width: fit-content;
 }
 
 .recipes__video-subtitle {
@@ -45,6 +43,7 @@
 .recipes__iframe {
   width: 480px;
   height: 273px;
+  border: 0;
 }
 
 .recipes__video-caption {
