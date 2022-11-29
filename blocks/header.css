@@ -15,6 +15,9 @@
 .header__title {
   margin: 80px 0 28px 80px;
   max-width: 729px;
+  font-size: 60px;
+  line-height: 72px;
+  font-weight: 500;
 }
 
 .header__span-accent {
@@ -29,9 +32,8 @@
 }
 
 .header__span-library {
-  font-weight: 500;
-  font-size: 60px;
-  line-height: 72px;
+  /* font-weight: 500; */
+
 }
 
 .header__description {

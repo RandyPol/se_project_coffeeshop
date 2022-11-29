@@ -12,7 +12,7 @@
     <meta name="author" content="Randy Pol" />
     <link rel="stylesheet" href="./pages/index.css" />
     <!-- Favicon not working -->
-    <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+    <link rel="icon" type="image/x-icon" href="favicon.ico" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -43,8 +43,8 @@
         </nav>
         <!-- Header title -->
         <h1 class="header__title">
-          <span class="header__span-accent">Specialty coffee</span
-          ><span class="header__span-library">in the Practicum Library</span>
+          <span class="header__span-accent">Specialty coffee</span>in the
+          Practicum Library
         </h1>
         <p class="header__description">
           Welcome to our study zone! We've got the coffee to energize you and
@@ -178,15 +178,14 @@
                 allowfullscreen
               ></iframe>
               <p class="recipes__video-caption">
-                <span class="recipes__video-Leftcaption">Burger recipe</span>~15
-                min
+                <span>Burger recipe</span>~15 min
               </p>
             </div>
           </div>
         </section>
         <section class="reservation" id="reservation__section">
           <h2 class="reservation__title">Book a table</h2>
-          <form action="#" class="form reservation__form">
+          <form action="#" class="reservation__form form">
             <fieldset class="form__fieldset">
               <label for="surname" class="form__label">Name *</label>
               <input
@@ -228,8 +227,10 @@
                 required
               />
             </fieldset>
+            <fieldset class="form__fieldset"></fieldset>
             <button class="form__button" type="submit">Book a table</button>
-
+          </fieldset>
+            <fieldset class="form__fieldset">
             <label for="term-OfUse" class="form__label">
               <input
                 type="checkbox"
@@ -240,6 +241,7 @@
               />
               I agree with the terms of use
             </label>
+            </fieldset>
           </form>
         </section>
         <section class="about">
