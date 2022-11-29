@@ -13,4 +13,6 @@ This is the second project of the Web Development program at Practicum. It was c
 
 ## Plan on improving the project
 
-Add your ideas here :)
+- The menu items make it more visual by integrating an image or video.
+
+- Create a timeline series about the coffee shop's history with important dates.
