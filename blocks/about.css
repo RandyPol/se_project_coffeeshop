@@ -27,11 +27,13 @@
 }
 
 .about__paragraph {
+  margin: 0;
   font-family: 'Noto Serif', serif;
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
   line-height: 30px;
+  background-color: aqua;
 }
 
 .about__circle {
@@ -46,14 +48,6 @@
 }
 
 .about__circle_animation_blurred {
-  width: 426px;
-  height: 426px;
-  position: absolute;
-  border-radius: 50%;
-  background-color: #2f80ed;
-  top: -152px;
-  left: -129px;
-  z-index: 0;
   animation: pulsate 1.3s ease-in-out infinite;
 }
 
