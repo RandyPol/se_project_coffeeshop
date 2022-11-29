@@ -33,10 +33,12 @@
           />
           <!-- List of menu options -->
           <ul class="nav__links">
-            <li><a href="#" class="nav__link">Menu</a></li>
-            <li><a href="#" class="nav__link">Recipes</a></li>
-            <li><a href="#" class="nav__link">Book a table</a></li>
-            <li><a href="#" class="nav__link">Contacts</a></li>
+            <li><a href="#menu__section" class="nav__link">Menu</a></li>
+            <li><a href="#recipes__section" class="nav__link">Recipes</a></li>
+            <li>
+              <a href="#reservation__section" class="nav__link">Book a table</a>
+            </li>
+            <li><a href="#footer-contacts" class="nav__link">Contacts</a></li>
           </ul>
         </nav>
         <!-- Header title -->
@@ -66,7 +68,7 @@
         </div>
       </header>
       <main class="content">
-        <section class="menu">
+        <section class="menu" id="menu__section">
           <h2 class="menu__title">Menu</h2>
           <p class="menu__subtitle">
             We brew coffee from locally roasted, Fairtrade certified beans and
@@ -148,7 +150,7 @@
             </div>
           </div>
         </section>
-        <section class="recipes">
+        <section class="recipes" id="recipes__section">
           <h2 class="recipes__title">Recipes</h2>
           <p class="recipes__subtitle">
             Check out some recipes we've collected for your home-brewing
@@ -182,7 +184,7 @@
             </div>
           </div>
         </section>
-        <section class="reservation">
+        <section class="reservation" id="reservation__section">
           <h2 class="reservation__title">Book a table</h2>
           <form action="#" class="form reservation__form">
             <fieldset class="form__fieldset">
